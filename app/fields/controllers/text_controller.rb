@@ -25,6 +25,10 @@ module Fields
     def icon?
       return attrs.icon.present?
     end
+
+    def value?
+      return attrs.value.present?
+    end
     
     def label
       return attrs.label || @field_name.titleize

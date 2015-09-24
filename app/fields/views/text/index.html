@@ -2,5 +2,5 @@
   <div class="input-field" item="{{label_id}}">
     {{ if icon? }}<i class="material-icons prefix">{{attrs.icon}}</i>{{ end }}
     <input type="{{ @type }}" value="{{ attrs.value }}" e-focusout="blur" class="{{ if errors }}invalid{{ elsif marked }}valid{{ end }}">
-    <label>{{label}}{{ if errors }} ({{ errors.or([]).join(', ') }}){{end}}</label>
+    <label class="{{ if value? }}active{{end}}">{{label}}{{ if errors }} ({{ errors.or([]).join(', ') }}){{end}}</label>
   </div>
