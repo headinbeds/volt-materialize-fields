@@ -13,7 +13,7 @@ module Mfields
     end
 
     def index_ready
-      set_label
+      # set_label
     end
 
     # Find the parent reactive value that produced the value
