@@ -1,4 +1,4 @@
-module Fields
+module Mfields
   class TextController < Volt::ModelController
     def index
       # Default to text fields

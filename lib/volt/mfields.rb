@@ -1,5 +1,5 @@
 module Volt
-  class Fields
+  class MFields
     # Your code goes here...
   end
 end
